@@ -13,8 +13,8 @@ class App extends Component {
                 <div className="App" />
                 <Router>
                     <>
-                        <Route exact={true} path={"/"} componen={Home} />
-                        <Route path={"/details/:movieId"} componen={Detail} />
+                        <Route exact={ true } path={"/"} component={Home} />
+                        <Route path={"/details/:movieId"} component={Detail} />
                     </>
                 </Router>
             </ApolloProvider>
